@@ -1,0 +1,24 @@
+{
+  "name": "cli-auth-app",
+  "version": "1.0.0",
+  "description": "A CLI application for username and password authentication",
+  "main": "app.js",
+  "bin": {
+    "auth-cli": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [
+    "cli",
+    "authentication",
+    "terminal",
+    "password"
+  ],
+  "author": "",
+  "license": "MIT"
+}
